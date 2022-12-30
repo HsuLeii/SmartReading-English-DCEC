@@ -614,7 +614,7 @@ body {
 
                 .title_mark {
                     position: relative;
-                    width: 8%;
+                    width: 10%;
                     max-width: 80px;
                     z-index: 1;
 
@@ -630,13 +630,13 @@ body {
                 .item_content {
                     background-color: $white;
                     border-radius: 5px;
-                    width: 92%;
+                    width: 90%;
                     margin-left: -5%;
 
                     .content_title {
                         display: flex;
                         align-items: center;
-                        padding: 5px 10px 5px 7%;
+                        padding: 5px 10px 5px 8%;
                         border-radius: 5px 5px 0 0;
 
                         h3 {
@@ -654,7 +654,7 @@ body {
                     }
 
                     .content_introduce {
-                        padding: 5px 10px 5px 7%;
+                        padding: 5px 10px 5px 8%;
                         border-radius: 0 0 5px 5px;
                         background-color: $white;
                         border-top: 0 !important;
@@ -1039,16 +1039,16 @@ body {
                 }
 
                 .title_mark {
-                    width: 8%;
+                    width: 10%;
                 }
 
                 .item_content {
-                    width: 92%;
+                    width: 90%;
 
                     .content_title {
                         display: flex;
                         align-items: center;
-                        padding: 5px 10px 5px 7%;
+                        padding: 5px 10px 5px 8%;
 
                         h3 {
                             white-space: nowrap;
@@ -1065,7 +1065,7 @@ body {
                     }
 
                     .content_introduce{
-                        padding: 5px 10px 5px 7%;
+                        padding: 5px 10px 5px 8%;
                     }
                 }
 

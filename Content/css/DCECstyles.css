@@ -68,7 +68,7 @@ img {
 *,
 body {
   font-family: 'Noto Sans', 'Noto Sans TC', 'Noto Sans SC', 'Microsoft JhengHei', 'Noto Sans TC', 'Microsoft YaHei', 'PingFang TC', 'PingFang SC', 'Heiti TC', 'Heiti SC', 'LiHei Pro', 'STXihei', sans-serif;
-  letter-spacing: 1px;
+  letter-spacing: 0.5px;
   box-sizing: border-box;
 }
 
@@ -591,7 +591,7 @@ body {
   }
   .page .test_content .item .title_mark {
     position: relative;
-    width: 8%;
+    width: 10%;
     max-width: 80px;
     z-index: 1;
   }
@@ -605,13 +605,13 @@ body {
   .page .test_content .item .item_content {
     background-color: #fff;
     border-radius: 5px;
-    width: 92%;
+    width: 90%;
     margin-left: -5%;
   }
   .page .test_content .item .item_content .content_title {
     display: flex;
     align-items: center;
-    padding: 5px 10px 5px 7%;
+    padding: 5px 10px 5px 8%;
     border-radius: 5px 5px 0 0;
   }
   .page .test_content .item .item_content .content_title h3 {
@@ -625,7 +625,7 @@ body {
     display: flex;
   }
   .page .test_content .item .item_content .content_introduce {
-    padding: 5px 10px 5px 7%;
+    padding: 5px 10px 5px 8%;
     border-radius: 0 0 5px 5px;
     background-color: #fff;
     border-top: 0 !important;
@@ -877,15 +877,15 @@ body {
     padding: 3px 6px;
   }
   .page .test_content .item .title_mark {
-    width: 8%;
+    width: 10%;
   }
   .page .test_content .item .item_content {
-    width: 92%;
+    width: 90%;
   }
   .page .test_content .item .item_content .content_title {
     display: flex;
     align-items: center;
-    padding: 5px 10px 5px 7%;
+    padding: 5px 10px 5px 8%;
   }
   .page .test_content .item .item_content .content_title h3 {
     white-space: nowrap;
@@ -898,7 +898,7 @@ body {
     display: flex;
   }
   .page .test_content .item .item_content .content_introduce {
-    padding: 5px 10px 5px 7%;
+    padding: 5px 10px 5px 8%;
   }
   .page .test_content .item.first_item .item_content .content_title {
     background-color: transparent;
