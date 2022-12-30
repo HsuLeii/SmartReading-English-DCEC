@@ -183,7 +183,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  padding: 20px 5%;
+  padding: 20px 3%;
   max-width: 768px;
 }
 
@@ -208,10 +208,17 @@ body {
   margin: 5px 0;
 }
 
+.page .test_content .item .fraction_area .fraction p,
+.page .test_content .item .fraction_area .average p {
+  font-weight: bold;
+}
+
 .page .test_content .item .fraction_area .fraction p:nth-child(2),
 .page .test_content .item .fraction_area .average p:nth-child(2) {
-  padding: 5px 10px;
+  padding: 5px;
   border-radius: 5px;
+  min-width: 58px;
+  text-align: center;
 }
 
 .page .test_content .item .fraction_area .fraction p.score,
@@ -464,7 +471,7 @@ body {
     /* page-break-after: always;  碰到此元素會直接換頁 */
     page-break-inside: avoid;
     position: relative;
-    background: linear-gradient(90deg, #ff9797 25%, #fff 0%);
+    background: linear-gradient(90deg, #ff9797 22.5%, #fff 0%);
     max-width: 1024px;
     width: 1024px;
     height: 1448px;
@@ -575,10 +582,16 @@ body {
     align-items: center;
     margin-left: 10px;
   }
+  .page .test_content .item .fraction_area .fraction p,
+  .page .test_content .item .fraction_area .average p {
+    font-weight: bold;
+  }
   .page .test_content .item .fraction_area .fraction p:nth-child(2),
   .page .test_content .item .fraction_area .average p:nth-child(2) {
-    padding: 3px 6px;
+    padding: 3px 5px;
     border-radius: 5px;
+    min-width: 58px;
+    text-align: center;
   }
   .page .test_content .item .fraction_area .fraction p.score,
   .page .test_content .item .fraction_area .average p.score {
@@ -605,12 +618,12 @@ body {
     background-color: #fff;
     border-radius: 5px;
     width: 90%;
-    margin-left: -5%;
+    margin-left: -4%;
   }
   .page .test_content .item .item_content .content_title {
     display: flex;
     align-items: center;
-    padding: 5px 10px 5px 8%;
+    padding: 5px 10px 5px 6%;
     border-radius: 5px 5px 0 0;
   }
   .page .test_content .item .item_content .content_title h3 {
@@ -624,7 +637,7 @@ body {
     display: flex;
   }
   .page .test_content .item .item_content .content_introduce {
-    padding: 5px 10px 5px 8%;
+    padding: 5px 10px 5px 6%;
     border-radius: 0 0 5px 5px;
     background-color: #fff;
     border-top: 0 !important;
@@ -722,7 +735,7 @@ body {
     justify-content: center;
     flex-direction: column;
     z-index: 2;
-    margin: 0 2%;
+    margin: 0 5%;
   }
   .page .chartbar_area .srscore:after,
   .page .chartbar_area .cefr_level:after,
@@ -807,7 +820,7 @@ body {
   .page {
     /* page-break-inside: avoid; 若順著向下排列時會切開此元素，則直接換頁 */
     /* page-break-after: always;  碰到此元素會直接換頁 */
-    background: linear-gradient(90deg, #ff9797 25%, #fff 0%);
+    background: linear-gradient(90deg, #ff9797 22.5%, #fff 0%);
     height: 1448px;
     padding-top: 15px;
   }
@@ -873,18 +886,19 @@ body {
   }
   .page .test_content .item .fraction_area .fraction p:nth-child(2),
   .page .test_content .item .fraction_area .average p:nth-child(2) {
-    padding: 3px 6px;
+    padding: 3px 5px;
   }
   .page .test_content .item .title_mark {
     width: 10%;
   }
   .page .test_content .item .item_content {
     width: 90%;
+    margin-left: -4%;
   }
   .page .test_content .item .item_content .content_title {
     display: flex;
     align-items: center;
-    padding: 5px 10px 5px 8%;
+    padding: 5px 10px 5px 6%;
   }
   .page .test_content .item .item_content .content_title h3 {
     white-space: nowrap;
@@ -897,7 +911,7 @@ body {
     display: flex;
   }
   .page .test_content .item .item_content .content_introduce {
-    padding: 5px 10px 5px 8%;
+    padding: 5px 10px 5px 6%;
   }
   .page .test_content .item.first_item .item_content .content_title {
     background-color: transparent;
@@ -933,6 +947,11 @@ body {
     position: relative;
     bottom: 80px;
     max-width: none;
+  }
+  .page .chartbar_area .srscore,
+  .page .chartbar_area .cefr_level,
+  .page .chartbar_area .actfl_level {
+    margin: 0 5%;
   }
   .page .chartbar_area .srscore:after,
   .page .chartbar_area .cefr_level:after,

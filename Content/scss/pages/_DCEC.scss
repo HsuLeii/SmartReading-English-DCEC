@@ -108,7 +108,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        padding: 20px 5%;
+        padding: 20px 3%;
         max-width: 768px;
 
         .item {
@@ -130,9 +130,12 @@ body {
                     margin: 5px 0;
 
                     p {
+                        font-weight: bold;
                         &:nth-child(2) {
-                            padding: 5px 10px;
+                            padding: 5px;
                             border-radius: 5px;
+                            min-width: 58px;
+                            text-align: center;
                         }
 
                         &.score {
@@ -466,7 +469,7 @@ body {
         /* page-break-after: always;  碰到此元素會直接換頁 */
         page-break-inside: avoid;
         position: relative;
-        background: linear-gradient(90deg, $light_main_color 25%, $white 0%);
+        background: linear-gradient(90deg, $light_main_color 22.5%, $white 0%);
         max-width: 1024px;
         width: 1024px;
         height: 1448px;
@@ -591,9 +594,12 @@ body {
                         margin-left: 10px;
 
                         p {
+                            font-weight: bold;
                             &:nth-child(2) {
-                                padding: 3px 6px;
+                                padding: 3px 5px;
                                 border-radius: 5px;
+                                min-width: 58px;
+                                text-align: center;
                             }
 
                             &.score {
@@ -631,12 +637,12 @@ body {
                     background-color: $white;
                     border-radius: 5px;
                     width: 90%;
-                    margin-left: -5%;
+                    margin-left: -4%;
 
                     .content_title {
                         display: flex;
                         align-items: center;
-                        padding: 5px 10px 5px 8%;
+                        padding: 5px 10px 5px 6%;
                         border-radius: 5px 5px 0 0;
 
                         h3 {
@@ -654,7 +660,7 @@ body {
                     }
 
                     .content_introduce {
-                        padding: 5px 10px 5px 8%;
+                        padding: 5px 10px 5px 6%;
                         border-radius: 0 0 5px 5px;
                         background-color: $white;
                         border-top: 0 !important;
@@ -851,7 +857,7 @@ body {
                 justify-content: center;
                 flex-direction: column;
                 z-index: 2;
-                margin: 0 2%;
+                margin: 0 5%;
 
                 &:after {
                     position: absolute;
@@ -952,7 +958,7 @@ body {
     .page {
         /* page-break-inside: avoid; 若順著向下排列時會切開此元素，則直接換頁 */
         /* page-break-after: always;  碰到此元素會直接換頁 */
-        background: linear-gradient(90deg, $light_main_color 25%, $white 0%);
+        background: linear-gradient(90deg, $light_main_color 22.5%, $white 0%);
         height: 1448px;
         padding-top: 15px;
 
@@ -1031,7 +1037,7 @@ body {
 
                         p {
                             &:nth-child(2) {
-                                padding: 3px 6px;
+                                padding: 3px 5px;
                             }
                         }
 
@@ -1044,11 +1050,12 @@ body {
 
                 .item_content {
                     width: 90%;
+                    margin-left: -4%;
 
                     .content_title {
                         display: flex;
                         align-items: center;
-                        padding: 5px 10px 5px 8%;
+                        padding: 5px 10px 5px 6%;
 
                         h3 {
                             white-space: nowrap;
@@ -1065,7 +1072,7 @@ body {
                     }
 
                     .content_introduce{
-                        padding: 5px 10px 5px 8%;
+                        padding: 5px 10px 5px 6%;
                     }
                 }
 
@@ -1140,6 +1147,7 @@ body {
             .srscore,
             .cefr_level,
             .actfl_level {
+                margin: 0 5%;
 
                 &:after {
                     padding: 6px;
