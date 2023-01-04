@@ -735,7 +735,7 @@ body {
     justify-content: center;
     flex-direction: column;
     z-index: 2;
-    margin: 0 5%;
+    margin: 0 2%;
   }
   .page .chartbar_area .srscore:after,
   .page .chartbar_area .cefr_level:after,
@@ -947,11 +947,6 @@ body {
     position: relative;
     bottom: 80px;
     max-width: none;
-  }
-  .page .chartbar_area .srscore,
-  .page .chartbar_area .cefr_level,
-  .page .chartbar_area .actfl_level {
-    margin: 0 5%;
   }
   .page .chartbar_area .srscore:after,
   .page .chartbar_area .cefr_level:after,

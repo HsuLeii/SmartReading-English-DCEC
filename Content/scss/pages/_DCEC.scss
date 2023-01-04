@@ -857,7 +857,7 @@ body {
                 justify-content: center;
                 flex-direction: column;
                 z-index: 2;
-                margin: 0 5%;
+                margin: 0 2%;
 
                 &:after {
                     position: absolute;
@@ -1147,7 +1147,6 @@ body {
             .srscore,
             .cefr_level,
             .actfl_level {
-                margin: 0 5%;
 
                 &:after {
                     padding: 6px;
