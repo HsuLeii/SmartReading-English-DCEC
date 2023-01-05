@@ -413,6 +413,8 @@ body {
             p {
                 text-align: center;
                 color: $dark_main_color;
+                font-weight: bold;
+                font-size: 16px;
             }
         }
     }
@@ -874,12 +876,14 @@ body {
 
                 h3 {
                     text-align: center;
+                    font-size: 28px;
                 }
 
                 p {
                     text-align: center;
                     color: $dark_main_color;
-                    font-size: 22px;
+                    font-size: 28px;
+                    font-weight: bold;
                 }
             }
         }
@@ -949,6 +953,14 @@ body {
             .actfl_level {
                 width: 29%;
                 margin: 0 2%;
+
+                h3{
+                    font-size: 23px;
+                }
+
+                p {
+                    font-size: 23px;
+                }
             }
         }
     }
@@ -1152,8 +1164,12 @@ body {
                     padding: 6px;
                 }
 
+                h3{
+                    font-size: 28px;
+                }
+
                 p {
-                    font-size: 22px;
+                    font-size: 28px;
                 }
             }
         }

@@ -420,6 +420,8 @@ body {
 .page .chartbar_area .actfl_level p {
   text-align: center;
   color: #9c4033;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .page .bottom_text {
@@ -755,13 +757,15 @@ body {
   .page .chartbar_area .cefr_level h3,
   .page .chartbar_area .actfl_level h3 {
     text-align: center;
+    font-size: 28px;
   }
   .page .chartbar_area .srscore p,
   .page .chartbar_area .cefr_level p,
   .page .chartbar_area .actfl_level p {
     text-align: center;
     color: #9c4033;
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: bold;
   }
   .page .bottom_text {
     width: 100%;
@@ -813,6 +817,16 @@ body {
   .page .chartbar_area .actfl_level {
     width: 29%;
     margin: 0 2%;
+  }
+  .page .chartbar_area .srscore h3,
+  .page .chartbar_area .cefr_level h3,
+  .page .chartbar_area .actfl_level h3 {
+    font-size: 23px;
+  }
+  .page .chartbar_area .srscore p,
+  .page .chartbar_area .cefr_level p,
+  .page .chartbar_area .actfl_level p {
+    font-size: 23px;
   }
 }
 
@@ -953,10 +967,15 @@ body {
   .page .chartbar_area .actfl_level:after {
     padding: 6px;
   }
+  .page .chartbar_area .srscore h3,
+  .page .chartbar_area .cefr_level h3,
+  .page .chartbar_area .actfl_level h3 {
+    font-size: 28px;
+  }
   .page .chartbar_area .srscore p,
   .page .chartbar_area .cefr_level p,
   .page .chartbar_area .actfl_level p {
-    font-size: 22px;
+    font-size: 28px;
   }
   .page .bottom_text {
     position: absolute;
